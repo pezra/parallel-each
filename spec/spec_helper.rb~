@@ -1,0 +1,4 @@
+require 'pathname'
+
+$LOAD_PATH << Pathname(__FILE__).dirname + '../lib'
+
