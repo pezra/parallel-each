@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "parallel_each"
-  s.version  = "0.1.0"
+  s.version  = "0.1.1"
   s.date     = "2008-11-05"
   s.summary  = "Parallelized Enumerable methods"
   s.email    = "pezra@barelyenough.org"
