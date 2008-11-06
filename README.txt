@@ -1,6 +1,6 @@
 = paralleleach
 
-* http://paralleleach.rubyforge.com
+* http://github.com/pezra/parallel_each
 
 == DESCRIPTION:
 
@@ -12,20 +12,25 @@ This is a set of Enumerable like methods that perform the blocks in parallel.
 
 == SYNOPSIS:
 
-    require 'paralleleach'
+    require 'rubygems'
+    require 'parallel_each'
 
-    (1..1000).p_map(15) { |i| i + 1 }  # => 2..1001
+    (1..1000).p_each(15) do |i| 
+      # do something with i
+    end
 
-This is much like Enumerable#map except that the resulting array would
-be created using 15 threads.  Even on the green threaded MRI this can
-result in significant performance gains if the block is IO bound.
+This is much like Enumerable#each except that the block would be
+executed in 15 different threads simultaneously.  On the green
+threaded MRI this can result in significant performance gains if the
+block is IO bound.  On native thread implementation the gains might be
+significant for CPU bound operations.
 
 == REQUIREMENTS:
 
 
 == INSTALL:
 
-* sudo gem install paralleleach
+* sudo gem install parallel_each
 
 == LICENSE:
 

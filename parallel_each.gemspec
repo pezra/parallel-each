@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date     = "2008-11-05"
   s.summary  = "Parallelized Enumerable methods"
   s.email    = "pezra@barelyenough.org"
-  s.homepage = "http://github.com/pezra/parallel-each"
+  s.homepage = "http://github.com/pezra/parallel_each"
   s.description = "Provides enumerable methods with a configurable level of parallelism.  Suitable for parallelizing non-trivial operations on large Enumerables."
   s.has_rdoc = true
   s.authors  = ["Peter Williams"]
