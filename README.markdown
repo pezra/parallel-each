@@ -49,7 +49,7 @@ overall processing time.  With one CPU or when running Ruby 1.8 there
 will be no improvement (and possibly a slight degradation) of the
 overall processing time.
 
-Legalise	   
+Legalese
 --------
 
 Copyright 2009 Peter Williams.
