@@ -9,6 +9,6 @@ module Enumerable
       runner.do(item, &block)
     end
 
-    runnder.wait_for_all_to_finish
+    runner.wait_for_all_to_finish
   end
 end
