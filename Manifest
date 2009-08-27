@@ -4,7 +4,6 @@ lib/parallel_each.rb
 LICENSE
 Manifest
 parallel-each.gemspec
-parallel_each.gemspec
 Rakefile
 README.markdown
 spec/bounded_async_task_runner_spec.rb

@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Parallel iteration for Enumerable}
   s.email = %q{pezra@barelyenough.org}
   s.extra_rdoc_files = ["CHANGELOG", "lib/bounded_async_task_runner.rb", "lib/parallel_each.rb", "LICENSE", "README.markdown"]
-  s.files = ["CHANGELOG", "lib/bounded_async_task_runner.rb", "lib/parallel_each.rb", "LICENSE", "Manifest", "parallel_each.gemspec", "Rakefile", "README.markdown", "spec/bounded_async_task_runner_spec.rb", "spec/parallel_each_spec.rb", "spec/spec_helper.rb", "parallel-each.gemspec"]
+  s.files = ["CHANGELOG", "lib/bounded_async_task_runner.rb", "lib/parallel_each.rb", "LICENSE", "Manifest", "parallel-each.gemspec", "Rakefile", "README.markdown", "spec/bounded_async_task_runner_spec.rb", "spec/parallel_each_spec.rb", "spec/spec_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/pezra/parallel-each}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Parallel-each", "--main", "README.markdown"]
