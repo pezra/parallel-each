@@ -1,5 +1,5 @@
 Parallel Each
-=============
+========
 
 Parallel each allows you to iterated through any `Enumerable` handling
 the items in parallel.  
@@ -32,7 +32,7 @@ very large lazy loaded lists (such as the results of
 once.
 
 Performance
------------
+-------
 
 The performance characteristics of parallel iteration varies greatly
 depending on the platform and work being performed.
@@ -50,7 +50,7 @@ will be no improvement (and possibly a slight degradation) of the
 overall processing time.
 
 Legalese
---------
+-----
 
 Copyright 2009 Peter Williams.
 

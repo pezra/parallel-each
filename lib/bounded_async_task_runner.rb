@@ -29,7 +29,7 @@ class BoundedAsyncTaskRunner
   #
   # @yieldparam *args The arguments passed into this method.
   #
-  # @raise AsyncTaskError If any previously executed task has failed
+  # @raise [AsyncTaskError] If any previously executed task has failed
   #   (i.e. raised an error) an AsyncTaskError will be raised instead
   #   of executing the async task.
   def do(*args, &block)
@@ -61,7 +61,7 @@ class BoundedAsyncTaskRunner
 
   # Blocks until all currently running tasks to complete.
   #
-  # @raise AsyncTaskError If any previously executed task has failed
+  # @raise [AsyncTaskError] If any previously executed task has failed
   #   (i.e. raised an error) an AsyncTaskError will be raised.
   def wait_for_all_to_finish
     until @threads.empty?
