@@ -1,0 +1,5 @@
+v1.0.0
+=====
+
+ * Parallel iteration over item in an Enumerable
+
