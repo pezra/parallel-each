@@ -1,11 +1,11 @@
 CHANGELOG
-lib/bounded_async_task_runner.rb
-lib/parallel_each.rb
 LICENSE
 Manifest
-parallel-each.gemspec
-Rakefile
 README.markdown
+Rakefile
+lib/bounded_async_task_runner.rb
+lib/parallel_each.rb
+parallel-each.gemspec
 spec/bounded_async_task_runner_spec.rb
 spec/parallel_each_spec.rb
 spec/spec_helper.rb

@@ -31,6 +31,14 @@ very large lazy loaded lists (such as the results of
 `ActiveRecord#find`) without instantiating every item in the list at
 once.
 
+Installation
+------
+
+Install the gem with this command
+
+    sudo gem install parallel-each
+
+
 Performance
 -------
 
@@ -49,20 +57,32 @@ overall processing time.  With one CPU or when running Ruby 1.8 there
 will be no improvement (and possibly a slight degradation) of the
 overall processing time.
 
+Links
+-----
+
+API docs
+:   <http://parallel-each.rubyforge.com>
+
+Canonical repo
+:   [git://github.com/pezra/parallel-each.git](git://github.com/pezra/parallel-each.git)
+    
+Github page
+:   <http://github.com/pezra/parallel-each>
+
 Legalese
 -----
 
 Copyright 2009 Peter Williams.
 
 This Program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
+it under the terms of the GNU Lesser General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at
 your option) any later version.
 
 This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-General Public License for more details.
+Lesser General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public
 License along with this program.  If not, see

@@ -11,6 +11,7 @@ Echoe.new('parallel-each') do |p|
   p.url             = "http://github.com/pezra/parallel-each"
   p.author          = "Peter Williams"
   p.email           = "pezra@barelyenough.org"
+  p.retain_gemspec  = true
 end
 
 
